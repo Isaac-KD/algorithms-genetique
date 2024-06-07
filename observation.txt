@@ -1,0 +1,2 @@
+premiere tentative L'ia fait des tours sur elle meme a l'infini
+je doit chnager la fonction de fintenness(finalement non) et ajouter un nombre d'essaie limiter 

@@ -1,0 +1,2 @@
+Generation 10: Best Fitness = 2 
+Ceci est une autre ligne.
