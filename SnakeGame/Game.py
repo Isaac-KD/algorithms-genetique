@@ -5,7 +5,7 @@ import numpy as np
 
 class Game():
     def __init__(self,length=11):
-        self.length = length
+        self.length = length 
         self.score=0
         self.time_not_eat=0
         self.appel_in_map = False

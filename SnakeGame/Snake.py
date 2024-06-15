@@ -1,4 +1,13 @@
 class Snake():
+    """
+    Classe permettant de gere le serpent. le body represent la pile d'execustion des mouvement de chaque parti du corps.
+    
+    < Methodes > :
+        add_mouvement(self,pos)->None :  ajoute un mouvement a la pile d'execustion des diiferent parti du body, qui ce fera ajuster par refresh par la suite.
+        refresh(self)->None : refresh la pile d'execustion des different parti du body
+        eat(self)->None: fait grandire le serpend de 1.
+        bitten(self ): Verifie si le serpend c'est mordue 
+    """
     def __init__(self,pos1,pos2,pos3) -> None:
         self.body = [[pos1],[pos2,pos1],[pos3,pos2,pos1]]
         
@@ -6,7 +15,7 @@ class Snake():
         return len(self.body) 
     
     def head(self):
-        return self.body[0][0]
+        return self.body[0][0] 
     
     def tail(self):
         return self.body[len(self.body)-1][0]
@@ -55,6 +64,9 @@ class Snake():
         return False
             
 def snake_test():
+    """
+    Creat a snake for train assert
+    """
     return Snake((6,6),(5,6),(4,6))
 
 if __name__ == "__main__":
