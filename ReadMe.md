@@ -17,4 +17,4 @@ Ces étapes sont prévues pour être achevées d’ici la fin de l’année scol
 
 Une fois le projet complété, une version stable sera publiée avec une documentation complète et des exemples d’utilisation.
 
-Si tu souhaites des ajouts ou des précisions spécifiques, fais-le-moi savoir !
+Je ne pas eu le temps de finir l'entrainement de l'ia, le fichier contenat le model final sera desposer plus tard.
