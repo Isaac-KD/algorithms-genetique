@@ -1,4 +1,4 @@
-Voici une version améliorée et plus professionnelle de ton texte pour le README :
+
 
 Projet en cours de développement
 
